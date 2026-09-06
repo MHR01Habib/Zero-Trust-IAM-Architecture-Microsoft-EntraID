@@ -1,0 +1,121 @@
+UserPrincipalName,FirstName,LastName,DisplayName,JobTitle,Department,ManagerUPN,UsageLocation
+amorgan@DetrovaMobility.onmicrosoft.com,Alex,Morgan,Alex Morgan,Chief Executive Officer,Executive,,US
+ksanders@DetrovaMobility.onmicrosoft.com,Kimberly,Sanders,Kimberly Sanders,Engineering Director,Engineering,amorgan@DetrovaMobility.onmicrosoft.com,US
+rmartinez@DetrovaMobility.onmicrosoft.com,Rachel,Martinez,Rachel Martinez,Firmware Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+jkim@DetrovaMobility.onmicrosoft.com,Jennifer,Kim,Jennifer Kim,QA Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+mstewart@DetrovaMobility.onmicrosoft.com,Megan,Stewart,Megan Stewart,DevOps Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+rcooper@DetrovaMobility.onmicrosoft.com,Raymond,Cooper,Raymond Cooper,Senior Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+lharris@DetrovaMobility.onmicrosoft.com,Larry,Harris,Larry Harris,QA Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+tclark@DetrovaMobility.onmicrosoft.com,Tyler,Clark,Tyler Clark,Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+rharris@DetrovaMobility.onmicrosoft.com,Robert,Harris,Robert Harris,Senior Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+jevans@DetrovaMobility.onmicrosoft.com,Jacob,Evans,Jacob Evans,DevOps Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+srivera@DetrovaMobility.onmicrosoft.com,Samantha,Rivera,Samantha Rivera,Senior Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+eruiz@DetrovaMobility.onmicrosoft.com,Edward,Ruiz,Edward Ruiz,Firmware Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+dwright@DetrovaMobility.onmicrosoft.com,Deborah,Wright,Deborah Wright,DevOps Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+mdiaz@DetrovaMobility.onmicrosoft.com,Melissa,Diaz,Melissa Diaz,Firmware Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+gscott@DetrovaMobility.onmicrosoft.com,Gregory,Scott,Gregory Scott,Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+cgonzalez@DetrovaMobility.onmicrosoft.com,Catherine,Gonzalez,Catherine Gonzalez,QA Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+rkim@DetrovaMobility.onmicrosoft.com,Robert,Kim,Robert Kim,Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+speterson@DetrovaMobility.onmicrosoft.com,Sara,Peterson,Sara Peterson,Senior Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+pcook@DetrovaMobility.onmicrosoft.com,Patricia,Cook,Patricia Cook,DevOps Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+ehoward@DetrovaMobility.onmicrosoft.com,Emma,Howard,Emma Howard,Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+apatel@DetrovaMobility.onmicrosoft.com,Ashley,Patel,Ashley Patel,Senior Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+cmorales@DetrovaMobility.onmicrosoft.com,Charles,Morales,Charles Morales,Firmware Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+jsanders@DetrovaMobility.onmicrosoft.com,Julie,Sanders,Julie Sanders,Senior Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+breyes@DetrovaMobility.onmicrosoft.com,Brenda,Reyes,Brenda Reyes,Senior Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+jwood@DetrovaMobility.onmicrosoft.com,Joseph,Wood,Joseph Wood,Firmware Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+kstewart@DetrovaMobility.onmicrosoft.com,Kelly,Stewart,Kelly Stewart,Firmware Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+jmorgan@DetrovaMobility.onmicrosoft.com,Jack,Morgan,Jack Morgan,DevOps Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+jgutierrez@DetrovaMobility.onmicrosoft.com,Jonathan,Gutierrez,Jonathan Gutierrez,Firmware Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+jgreen@DetrovaMobility.onmicrosoft.com,Jonathan,Green,Jonathan Green,Senior Software Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+jking@DetrovaMobility.onmicrosoft.com,Jose,King,Jose King,Firmware Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+dmartin@DetrovaMobility.onmicrosoft.com,Dennis,Martin,Dennis Martin,DevOps Engineer,Engineering,ksanders@DetrovaMobility.onmicrosoft.com,US
+kfoster@DetrovaMobility.onmicrosoft.com,Kyle,Foster,Kyle Foster,Sales Director,Sales,amorgan@DetrovaMobility.onmicrosoft.com,US
+jpatel@DetrovaMobility.onmicrosoft.com,Judith,Patel,Judith Patel,Regional Sales Manager,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+jgreen2@DetrovaMobility.onmicrosoft.com,Jerry,Green,Jerry Green,Sales Representative,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+jalvarez@DetrovaMobility.onmicrosoft.com,Justin,Alvarez,Justin Alvarez,Sales Development Rep,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+rmyers@DetrovaMobility.onmicrosoft.com,Rachel,Myers,Rachel Myers,Regional Sales Manager,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+ahernandez@DetrovaMobility.onmicrosoft.com,Aaron,Hernandez,Aaron Hernandez,Account Executive,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+swood@DetrovaMobility.onmicrosoft.com,Sharon,Wood,Sharon Wood,Regional Sales Manager,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+nsmith@DetrovaMobility.onmicrosoft.com,Nicole,Smith,Nicole Smith,Regional Sales Manager,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+bmorales@DetrovaMobility.onmicrosoft.com,Barbara,Morales,Barbara Morales,Account Executive,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+rjohnson@DetrovaMobility.onmicrosoft.com,Ruth,Johnson,Ruth Johnson,Account Executive,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+bbaker@DetrovaMobility.onmicrosoft.com,Brian,Baker,Brian Baker,Regional Sales Manager,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+ocook@DetrovaMobility.onmicrosoft.com,Olivia,Cook,Olivia Cook,Sales Development Rep,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+bmyers@DetrovaMobility.onmicrosoft.com,Benjamin,Myers,Benjamin Myers,Regional Sales Manager,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+tedwards@DetrovaMobility.onmicrosoft.com,Thomas,Edwards,Thomas Edwards,Regional Sales Manager,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+lroberts@DetrovaMobility.onmicrosoft.com,Larry,Roberts,Larry Roberts,Regional Sales Manager,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+rsanders@DetrovaMobility.onmicrosoft.com,Ronald,Sanders,Ronald Sanders,Account Executive,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+jward@DetrovaMobility.onmicrosoft.com,John,Ward,John Ward,Regional Sales Manager,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+nlopez@DetrovaMobility.onmicrosoft.com,Nancy,Lopez,Nancy Lopez,Account Executive,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+rross@DetrovaMobility.onmicrosoft.com,Ryan,Ross,Ryan Ross,Regional Sales Manager,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+bjackson@DetrovaMobility.onmicrosoft.com,Betty,Jackson,Betty Jackson,Sales Development Rep,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+rprice@DetrovaMobility.onmicrosoft.com,Richard,Price,Richard Price,Sales Representative,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+jlong@DetrovaMobility.onmicrosoft.com,Judith,Long,Judith Long,Sales Development Rep,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+wwhite@DetrovaMobility.onmicrosoft.com,William,White,William White,Sales Representative,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+ftaylor@DetrovaMobility.onmicrosoft.com,Frank,Taylor,Frank Taylor,Account Executive,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+nmoore@DetrovaMobility.onmicrosoft.com,Nicole,Moore,Nicole Moore,Sales Development Rep,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+rflores@DetrovaMobility.onmicrosoft.com,Raymond,Flores,Raymond Flores,Sales Development Rep,Sales,kfoster@DetrovaMobility.onmicrosoft.com,US
+tgonzalez@DetrovaMobility.onmicrosoft.com,Thomas,Gonzalez,Thomas Gonzalez,Marketing Director,Marketing,amorgan@DetrovaMobility.onmicrosoft.com,US
+kmendoza@DetrovaMobility.onmicrosoft.com,Kelly,Mendoza,Kelly Mendoza,SEO Specialist,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+drivera@DetrovaMobility.onmicrosoft.com,Diane,Rivera,Diane Rivera,Content Specialist,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+jpeterson@DetrovaMobility.onmicrosoft.com,Jessica,Peterson,Jessica Peterson,SEO Specialist,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+bcampbell@DetrovaMobility.onmicrosoft.com,Benjamin,Campbell,Benjamin Campbell,Marketing Manager,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+mmartin@DetrovaMobility.onmicrosoft.com,Michael,Martin,Michael Martin,Content Specialist,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+klewis@DetrovaMobility.onmicrosoft.com,Kevin,Lewis,Kevin Lewis,Brand Manager,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+zking@DetrovaMobility.onmicrosoft.com,Zachary,King,Zachary King,Content Specialist,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+aanderson@DetrovaMobility.onmicrosoft.com,Andrew,Anderson,Andrew Anderson,Brand Manager,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+jsanders2@DetrovaMobility.onmicrosoft.com,Joan,Sanders,Joan Sanders,Marketing Manager,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+ajohnson@DetrovaMobility.onmicrosoft.com,Adam,Johnson,Adam Johnson,Marketing Manager,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+lthomas@DetrovaMobility.onmicrosoft.com,Larry,Thomas,Larry Thomas,SEO Specialist,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+lmorales@DetrovaMobility.onmicrosoft.com,Lisa,Morales,Lisa Morales,Brand Manager,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+kcruz@DetrovaMobility.onmicrosoft.com,Kathleen,Cruz,Kathleen Cruz,Content Specialist,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+cprice@DetrovaMobility.onmicrosoft.com,Catherine,Price,Catherine Price,SEO Specialist,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+lgonzalez@DetrovaMobility.onmicrosoft.com,Larry,Gonzalez,Larry Gonzalez,Marketing Manager,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+asanders@DetrovaMobility.onmicrosoft.com,Anthony,Sanders,Anthony Sanders,Marketing Manager,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+nchavez@DetrovaMobility.onmicrosoft.com,Nicole,Chavez,Nicole Chavez,SEO Specialist,Marketing,tgonzalez@DetrovaMobility.onmicrosoft.com,US
+rcastillo@DetrovaMobility.onmicrosoft.com,Ruth,Castillo,Ruth Castillo,Finance Director,Finance,amorgan@DetrovaMobility.onmicrosoft.com,US
+creyes@DetrovaMobility.onmicrosoft.com,Christina,Reyes,Christina Reyes,Accountant,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+hstewart@DetrovaMobility.onmicrosoft.com,Hannah,Stewart,Hannah Stewart,Payroll Specialist,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+pross@DetrovaMobility.onmicrosoft.com,Paul,Ross,Paul Ross,Accounts Payable Clerk,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+hbrown@DetrovaMobility.onmicrosoft.com,Hannah,Brown,Hannah Brown,Payroll Specialist,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+srodriguez@DetrovaMobility.onmicrosoft.com,Steven,Rodriguez,Steven Rodriguez,Payroll Specialist,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+mpowell@DetrovaMobility.onmicrosoft.com,Michael,Powell,Michael Powell,Accountant,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+hphillips@DetrovaMobility.onmicrosoft.com,Heather,Phillips,Heather Phillips,Financial Analyst,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+mpowell2@DetrovaMobility.onmicrosoft.com,Matthew,Powell,Matthew Powell,Accounts Payable Clerk,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+rkim2@DetrovaMobility.onmicrosoft.com,Ruth,Kim,Ruth Kim,Payroll Specialist,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+spowell@DetrovaMobility.onmicrosoft.com,Stephanie,Powell,Stephanie Powell,Financial Analyst,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+rclark@DetrovaMobility.onmicrosoft.com,Robert,Clark,Robert Clark,Financial Analyst,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+rhall@DetrovaMobility.onmicrosoft.com,Richard,Hall,Richard Hall,Payroll Specialist,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+sramirez@DetrovaMobility.onmicrosoft.com,Stephen,Ramirez,Stephen Ramirez,Accountant,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+ocampbell@DetrovaMobility.onmicrosoft.com,Olivia,Campbell,Olivia Campbell,Payroll Specialist,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+jhall@DetrovaMobility.onmicrosoft.com,Joyce,Hall,Joyce Hall,Accounts Payable Clerk,Finance,rcastillo@DetrovaMobility.onmicrosoft.com,US
+sgutierrez@DetrovaMobility.onmicrosoft.com,Samuel,Gutierrez,Samuel Gutierrez,IT Director,IT,amorgan@DetrovaMobility.onmicrosoft.com,US
+jlopez@DetrovaMobility.onmicrosoft.com,Jose,Lopez,Jose Lopez,Systems Administrator,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+krichardson@DetrovaMobility.onmicrosoft.com,Karen,Richardson,Karen Richardson,Systems Administrator,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+rcook@DetrovaMobility.onmicrosoft.com,Ruth,Cook,Ruth Cook,IT Support Specialist,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+enguyen@DetrovaMobility.onmicrosoft.com,Emma,Nguyen,Emma Nguyen,Network Engineer,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+swright@DetrovaMobility.onmicrosoft.com,Stephen,Wright,Stephen Wright,IT Support Specialist,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+zreed@DetrovaMobility.onmicrosoft.com,Zachary,Reed,Zachary Reed,IT Support Specialist,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+nhernandez@DetrovaMobility.onmicrosoft.com,Nathan,Hernandez,Nathan Hernandez,IT Support Specialist,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+sanderson@DetrovaMobility.onmicrosoft.com,Sara,Anderson,Sara Anderson,Help Desk Technician,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+ptorres@DetrovaMobility.onmicrosoft.com,Patrick,Torres,Patrick Torres,Help Desk Technician,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+sbailey@DetrovaMobility.onmicrosoft.com,Susan,Bailey,Susan Bailey,Systems Administrator,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+jpowell@DetrovaMobility.onmicrosoft.com,Jose,Powell,Jose Powell,Help Desk Technician,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+mstewart2@DetrovaMobility.onmicrosoft.com,Michael,Stewart,Michael Stewart,Help Desk Technician,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+jgutierrez2@DetrovaMobility.onmicrosoft.com,John,Gutierrez,John Gutierrez,Network Engineer,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+balvarez@DetrovaMobility.onmicrosoft.com,Brandon,Alvarez,Brandon Alvarez,Network Engineer,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+ahill@DetrovaMobility.onmicrosoft.com,Amy,Hill,Amy Hill,Systems Administrator,IT,sgutierrez@DetrovaMobility.onmicrosoft.com,US
+pflores@DetrovaMobility.onmicrosoft.com,Paul,Flores,Paul Flores,HR Director,Human Resources,amorgan@DetrovaMobility.onmicrosoft.com,US
+rramirez@DetrovaMobility.onmicrosoft.com,Ruth,Ramirez,Ruth Ramirez,HR Coordinator,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
+kroberts@DetrovaMobility.onmicrosoft.com,Katherine,Roberts,Katherine Roberts,HR Coordinator,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
+sbennett@DetrovaMobility.onmicrosoft.com,Stephanie,Bennett,Stephanie Bennett,Benefits Administrator,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
+jsmith@DetrovaMobility.onmicrosoft.com,Jack,Smith,Jack Smith,HR Coordinator,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
+mjackson@DetrovaMobility.onmicrosoft.com,Melissa,Jackson,Melissa Jackson,HR Coordinator,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
+bharris@DetrovaMobility.onmicrosoft.com,Benjamin,Harris,Benjamin Harris,Benefits Administrator,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
+amorris@DetrovaMobility.onmicrosoft.com,Alexander,Morris,Alexander Morris,Recruiter,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
+ccarter@DetrovaMobility.onmicrosoft.com,Christina,Carter,Christina Carter,Recruiter,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
+trichardson@DetrovaMobility.onmicrosoft.com,Thomas,Richardson,Thomas Richardson,Recruiter,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
+pmurphy@DetrovaMobility.onmicrosoft.com,Peter,Murphy,Peter Murphy,Benefits Administrator,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
+fdavis@DetrovaMobility.onmicrosoft.com,Frank,Davis,Frank Davis,Recruiter,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
+hlewis@DetrovaMobility.onmicrosoft.com,Hannah,Lewis,Hannah Lewis,Recruiter,Human Resources,pflores@DetrovaMobility.onmicrosoft.com,US
