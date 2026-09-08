@@ -8,7 +8,7 @@ A visual tour of the Detrova Mobility Zero Trust IAM lab, showing the key pieces
 
 This is the Entra ID dashboard for Detrova Mobility. It shows the tenant with 123 users, 14 groups, and a Microsoft Entra ID P2 license.
 
-![Tenant overview](01-tenant-overview.png)
+![Tenant overview](../images/01-tenant-overview.png)
 
 ---
 
@@ -16,7 +16,7 @@ This is the Entra ID dashboard for Detrova Mobility. It shows the tenant with 12
 
 The Groups overview. Out of 14 total groups, 5 are dynamic, meaning they fill themselves automatically instead of being managed by hand.
 
-![Groups overview](02-groups-overview.png)
+![Groups overview](../images/02-groups-overview.png)
 
 ---
 
@@ -24,7 +24,7 @@ The Groups overview. Out of 14 total groups, 5 are dynamic, meaning they fill th
 
 The 5 dynamic security groups: Engineering, HR, IT, Marketing and Finance, and Sales. Each one is cloud-based and populates by department.
 
-![Dynamic groups](03-dynamic-group.png)
+![Dynamic groups](../images/03-dynamic-group.png)
 
 ---
 
@@ -32,7 +32,7 @@ The 5 dynamic security groups: Engineering, HR, IT, Marketing and Finance, and S
 
 This is the rule behind a dynamic group. Anyone whose department equals "Engineering" is added automatically, with no manual work.
 
-![Dynamic membership rule](04-dynamic-rule.png)
+![Dynamic membership rule](../images/04-dynamic-rule.png)
 
 ---
 
@@ -40,8 +40,7 @@ This is the rule behind a dynamic group. Anyone whose department equals "Enginee
 
 The Break Glass Admins group: 3 emergency accounts, excluded from all Conditional Access so a broken policy can never lock everyone out of the tenant.
 
-![Break glass admins](05-break-glass-admins.png)
-
+![Break glass admins](../images/05-break-glass-admins.png)
 
 ---
 
@@ -49,7 +48,7 @@ The Break Glass Admins group: 3 emergency accounts, excluded from all Conditiona
 
 This is my Conditional Access section, with all 6 security policies I built. Each one is a rule that decides who gets in and under what conditions, covering MFA, device compliance, blocking risky sign-ins, and protecting admin activation.
 
-![Conditional Access policies](06-conditional-access-policies.png)
+![Conditional Access policies](../images/06-conditional-access-policies.png)
 
 ---
 
@@ -57,7 +56,7 @@ This is my Conditional Access section, with all 6 security policies I built. Eac
 
 This is my "Require MFA" policy for all users. A password alone isn't enough since passwords get stolen or guessed, so MFA adds a second proof of identity. Even if someone steals a password, they still can't get in without it.
 
-![Require MFA](07-require-mfa.png)
+![Require MFA](../images/07-require-mfa.png)
 
 ---
 
@@ -65,8 +64,7 @@ This is my "Require MFA" policy for all users. A password alone isn't enough sin
 
 This is my phishing-resistant MFA policy, applied only to Engineering and IT. Regular MFA already protects everyone well; this adds an extra layer for the highest-risk teams. It's bound to the real site and device, so it holds up even against advanced phishing.
 
-![Phishing-resistant MFA](08-phishing-resistant-mfa.png)
-
+![Phishing-resistant MFA](../images/08-phishing-resistant-mfa.png)
 
 ---
 
@@ -74,7 +72,7 @@ This is my phishing-resistant MFA policy, applied only to Engineering and IT. Re
 
 This is my "Block Access Outside US" policy. Since Detrova is mainly a US-based company, it blocks any sign-in from outside the country. But notice the exclusions: Approved International Travelers and the Break Glass Admins are exempt, so approved business travel and emergency access still work while everyone else stays protected.
 
-![Block access outside US](09-block-outside-us.png)
+![Block access outside US](../images/09-block-outside-us.png)
 
 ---
 
@@ -82,8 +80,7 @@ This is my "Block Access Outside US" policy. Since Detrova is mainly a US-based 
 
 This is the "named location" that powers the policy above. I defined the United States as a location using its IP ranges, and the Block Access Outside US policy points at it. Together they answer the question "where is this sign-in coming from?" and act on the answer.
 
-![United States named location](10-named-location-us.png)
-
+![United States named location](../images/10-named-location-us.png)
 
 ---
 
@@ -91,7 +88,7 @@ This is the "named location" that powers the policy above. I defined the United 
 
 This is my "Require Compliant Device" policy. It only lets a device in if Intune has labeled it compliant. But the policy itself doesn't check the device, it just reads the label and enforces it: compliant gets in, not compliant gets blocked.
 
-![Require compliant device](11-require-compliant-device.png)
+![Require compliant device](../images/11-require-compliant-device.png)
 
 ---
 
@@ -99,4 +96,4 @@ This is my "Require Compliant Device" policy. It only lets a device in if Intune
 
 This is the Intune compliance policy that creates the label the policy above depends on. It's the health checklist every device must pass: firewall on, antivirus, TPM, and Microsoft Defender all required. Intune checks and labels the device; Conditional Access enforces it. The two work as a team.
 
-![Intune compliance baseline](12-intune-compliance-baseline.png)
+![Intune compliance baseline](../images/12-intune-compliance-baseline.png)
