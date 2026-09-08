@@ -97,3 +97,36 @@ This is my "Require Compliant Device" policy. It only lets a device in if Intune
 This is the Intune compliance policy that creates the label the policy above depends on. It's the health checklist every device must pass: firewall on, antivirus, TPM, and Microsoft Defender all required. Intune checks and labels the device; Conditional Access enforces it. The two work as a team.
 
 ![Intune compliance baseline](../images/12-intune-compliance-baseline.png)
+
+
+---
+
+### 13. Just-in-Time Admin with PIM
+
+This is PIM (Privileged Identity Management) for the Helpdesk Administrator role. Instead of admins holding power 24/7, which is risky if an account gets hacked, these three users are only *eligible*. Their admin power is off by default and only turns on when they request it, then shuts off automatically.
+
+![PIM eligible assignments](../images/13-pim-eligible-assignments.png)
+
+---
+
+### 14. PIM Role Settings
+
+These are the rules behind that role. Activation lasts a maximum of 8 hours, requires a justification, and, most importantly, "On activation, require" is set to the MFA authentication context. So turning on admin power is never just a click.
+
+![PIM role settings](../images/14-pim-role-settings.png)
+
+---
+
+### 15. The Authentication Context
+
+This is the authentication context I built, basically a label that means "extra verification required." On its own it does nothing; it's the trigger that a Conditional Access policy watches for.
+
+![Authentication context](../images/15-authentication-context.png)
+
+---
+
+### 16. Forcing MFA on Admin Activation
+
+This is the Conditional Access policy that watches for that label and forces MFA whenever it's triggered. Tied to the PIM role, it means activating admin access always demands fresh MFA. This connects my identity, security rules, and admin access into one system.
+
+![MFA for PIM activation](../images/16-mfa-for-pim-activation.png)
