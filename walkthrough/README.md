@@ -66,3 +66,20 @@ This is my "Require MFA" policy for all users. A password alone isn't enough sin
 This is my phishing-resistant MFA policy, applied only to Engineering and IT. Regular MFA already protects everyone well; this adds an extra layer for the highest-risk teams. It's bound to the real site and device, so it holds up even against advanced phishing.
 
 ![Phishing-resistant MFA](08-phishing-resistant-mfa.png)
+
+
+---
+
+### 9. Block Access Outside the US
+
+This is my "Block Access Outside US" policy. Since Detrova is mainly a US-based company, it blocks any sign-in from outside the country. But notice the exclusions: Approved International Travelers and the Break Glass Admins are exempt, so approved business travel and emergency access still work while everyone else stays protected.
+
+![Block access outside US](09-block-outside-us.png)
+
+---
+
+### 10. The Named Location Behind the Block
+
+This is the "named location" that powers the policy above. I defined the United States as a location using its IP ranges, and the Block Access Outside US policy points at it. Together they answer the question "where is this sign-in coming from?" and act on the answer.
+
+![United States named location](10-named-location-us.png)
