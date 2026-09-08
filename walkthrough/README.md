@@ -1,6 +1,6 @@
 # Walkthrough
 
-A visual tour of the Detrova Mobility Zero Trust IAM lab, showing the key pieces I built and configured in Microsoft Entra ID.
+A visual tour of the Detrova Mobility Zero Trust IAM lab, showing the key pieces I built and configured in Microsoft Entra ID and Intune.
 
 ---
 
