@@ -83,3 +83,20 @@ This is my "Block Access Outside US" policy. Since Detrova is mainly a US-based 
 This is the "named location" that powers the policy above. I defined the United States as a location using its IP ranges, and the Block Access Outside US policy points at it. Together they answer the question "where is this sign-in coming from?" and act on the answer.
 
 ![United States named location](10-named-location-us.png)
+
+
+---
+
+### 11. Require a Compliant Device
+
+This is my "Require Compliant Device" policy. It only lets a device in if Intune has labeled it compliant. But the policy itself doesn't check the device, it just reads the label and enforces it: compliant gets in, not compliant gets blocked.
+
+![Require compliant device](11-require-compliant-device.png)
+
+---
+
+### 12. The Intune Compliance Baseline
+
+This is the Intune compliance policy that creates the label the policy above depends on. It's the health checklist every device must pass: firewall on, antivirus, TPM, and Microsoft Defender all required. Intune checks and labels the device; Conditional Access enforces it. The two work as a team.
+
+![Intune compliance baseline](12-intune-compliance-baseline.png)
