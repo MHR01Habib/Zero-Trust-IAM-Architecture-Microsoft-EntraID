@@ -130,3 +130,28 @@ This is the authentication context I built, basically a label that means "extra 
 This is the Conditional Access policy that watches for that label and forces MFA whenever it's triggered. Tied to the PIM role, it means activating admin access always demands fresh MFA. This connects my identity, security rules, and admin access into one system.
 
 ![MFA for PIM activation](../images/16-mfa-for-pim-activation.png)
+
+
+---
+
+### 17. Device Configuration Policies
+
+These are my two Intune device configuration policies. A compliance policy just checks a device, but a configuration policy actually sets and enforces rules on it. These two, "Require Admin Credentials" and "Restrict Local Admins," were built to work as a pair.
+
+![Device configuration policies](../images/17-device-config-policies.png)
+
+---
+
+### 18. UAC Credential Prompt
+
+The first policy controls UAC. It forces a password prompt whenever someone tries to install software or make a big change, so nothing installs silently in the background.
+
+![UAC admin credentials](../images/18-uac-admin-credentials.png)
+
+---
+
+### 19. Restrict Local Admins
+
+The second policy removes local admin rights from regular employees, so only IT-Admins can install anything. This is why the two are paired: UAC forces the prompt, and removing admin rights means regular users can't just answer it themselves. Together, they close the gap.
+
+![Restrict local admins](../images/19-restrict-local-admins.png)
