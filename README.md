@@ -83,12 +83,6 @@ A hands-on lab where I built a **simulated 120-employee enterprise** in Microsof
 
 ---
 
-## Repository Contents
-
-> **Security note:** No real secrets are committed. The provisioning script uses a placeholder temporary password and forces a reset on first sign-in. Sensitive values should always be stored in a secret manager, never in source control.
-
----
-
 ## What I Learned
 
 This project taught me how the pieces of an enterprise identity system fit together, not just how to click through each feature, but *why* each control exists and how they reinforce one another. The biggest takeaway is that good IAM is about **automation and flow**: when identity is the source of truth, access becomes something that follows a person automatically, securely, and consistently, instead of something granted by hand and forgotten.
