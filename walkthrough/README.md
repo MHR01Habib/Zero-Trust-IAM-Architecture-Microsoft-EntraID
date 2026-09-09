@@ -155,3 +155,20 @@ The first policy controls UAC. It forces a password prompt whenever someone trie
 The second policy removes local admin rights from regular employees, so only IT-Admins can install anything. This is why the two are paired: UAC forces the prompt, and removing admin rights means regular users can't just answer it themselves. Together, they close the gap.
 
 ![Restrict local admins](../images/19-restrict-local-admins.png)
+
+
+---
+
+### 20. Testing with Virtual Machines
+
+To test everything from a real user's point of view, I built four Azure VMs, one for each role: a standard Employee, IT-Admin, IT-Manager, and Global-admin. This let me sign in as each type of user and see the policies exactly the way that person would.
+
+![Test VMs](../images/20-test-vms.png)
+
+---
+
+### 21. The Policies in Action
+
+Here are all four roles signed in at once, showing the policies working in a real scenario. The Employee (bottom-right) is blocked with "You can't get there from here" while traveling abroad. In the top-right, the IT-Manager messages IT to get her added to the Approved International Travelers group, since her trip was approved. Once she's in that group, she's excluded from the outside-US block and can work again, exactly the exception process I built.
+
+![Policies in action](../images/21-policy-in-action.png)
