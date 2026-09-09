@@ -30,7 +30,7 @@ foreach ($row in $csv) {
         PasswordProfile   = @{
             # A temporary starter password. The user is forced to change it
             # the first time they log in, so nobody keeps this one.
-            Password                      = "Detrova#2026!Temp"
+            Password                      = "***************"
             ForceChangePasswordNextSignIn = $true
         }
     }
