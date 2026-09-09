@@ -1,4 +1,6 @@
-# Zero Trust IAM Architecture: Microsoft Entra ID & Intune
+## Architecture Overview
+
+![Zero Trust IAM Architecture](assets/architecture.jpg)
 
 A hands-on lab where I built a **simulated 120-employee enterprise** in Microsoft Entra ID and Intune to understand how identity and access flow at an enterprise level. The goal was to learn how a **single source of truth cascades** into access, security, and control across a real organization: from automated user provisioning, to Zero Trust Conditional Access, to just-in-time admin with PIM and device compliance with Intune.
 
